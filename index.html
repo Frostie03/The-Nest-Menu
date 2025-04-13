@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Nest</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+        <img src="./Images/logo.jpg" alt="The Nest Logo" class="logo" />
+        <h1>Welcome to The Nest</h1>
+    </div>
+  </header>
+
+  <!-- Specials Section -->
+  <section id="specials">
+    <h2>Today's Specials</h2>
+    <div class="specials-grid">
+      <div class="special-item">
+        <img src="./main/burger combo.jpg" alt="Burger Combo" />
+        <div>
+          <strong>Burger Combo - $3.00</strong>
+          <ul>
+            <li>Burger</li>
+            <li>Fries</li>
+            <li>Juice</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="special-item">
+        <img src="./main/pizza combo.jpg" alt="Pizza Combo" />
+        <div>
+          <strong>Pizza Combo - $4.00</strong>
+          <ul>
+            <li>Small Pizza</li>
+            <li>Fries</li>
+            <li>Juice</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="special-item">
+        <img src="./main/wrap combo.jpg" alt="Wrap Combo" />
+        <div>
+          <strong>Wrap Combo - $2.00</strong>
+          <ul>
+            <li>Wrap</li>
+            <li>Fries</li>
+            <li>Juice</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="special-item">
+        <img src="./main/alfaham.jpg" alt="Al Faham Chicken with Mandi Rice" />
+        <div>
+          <strong>Al Faham Chicken + Mandi Rice - $5.00</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+  
+      <div class="menu-item">
+        <img src="./main/fired chicken.jpg" alt="American Fried Chicken" />
+        <div>
+          <strong>American Fried Chicken</strong>
+          <ul>
+            <li>Peri Peri Chicken Strips - $2.00</li>
+            <li>BBQ Chicken Strips - $2.50</li>
+            <li>Chicken Popcorn - $2.00</li>
+            <li>Chicken Strips - $1.50</li>
+            <li>American Fried Wings (4 pcs) - $2.00</li>
+            <li>American Full Chicken - (half)$2.50 - (full)$5.00</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="menu-item">
+        <img src="./main/pasta.jpg" alt="Pasta" />
+        <div>
+          <strong>Pasta</strong>
+          <ul>
+            <li>Arabita Pasta (Red Sauce) - $3.00</li>
+            <li>Alfredo Pasta (White Sauce) - $2.50</li>
+            <li>Makhni Pasta - $4.00</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="menu-item">
+        <img src="./main/smoking pizza.jpg" alt="Pizza" />
+        <div>
+          <strong>Pizza</strong>
+          <ul>
+            <li>  
+              Classic Chicken Pizza
+              <ul>
+                <li>Small - $2.00</li>
+                <li>Medium - $4.00</li>
+                <li>Large - $8.00</li>
+              </ul>
+            </li>
+
+            <li>
+              Hawaiian Pizza
+              <ul>
+                <li>Small - $3.00</li>
+                <li>Medium - $6.00</li>
+                <li>Large - $12.00</li>
+              </ul>
+            </li>
+
+            <li>
+              BBQ Chicken Pizza
+              <ul>
+                <li>Small - $4.00</li>
+                <li>Medium - $8.00</li>
+                <li>Large - $16.00</li>
+              </ul>
+            </li>
+
+            <li>
+              Italian Style Pizza
+              <ul>
+                <li>Small - $4.00</li>
+                <li>Medium - $8.00</li>
+                <li>Large - $16.00</li>
+              </ul>
+            </li>
+
+            <li>
+              Sausage & Egg Pizza
+              <ul>
+                <li>Small - $3.00</li>
+                <li>Medium - $6.00</li>
+                <li>Large - $12.00</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="menu-item">
+        <img src="./main/burger burger.jpg" alt="Burger" />
+        <div>
+          <strong>Burger</strong>
+          <ul>
+            <li>Chicken Burger - $1.00</li>
+            <li>Crispy Chicken Cheese Burger - $2.00</li>
+            <li>Crispy Chicken Burger - $2.00</li>
+            <li>Tandori Chicken Burger - $3.00</li>
+            <li>Bacon & Cheese Burger - $4.00</li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- Featured Dessert -->
+  <section id="dessert">
+    <h2>Featured Dessert</h2>
+    <div class="dessert-item">
+      <a href="./dessert/dessert.html" target="_blank">
+        <img src="./main/dessert.jpg" alt="Featured Dessert" class="dessert-img" onclick="dessert()"/>
+      </a>
+      <div>
+        <h3>Chocolate Lava Cake</h3>
+        <p>Try our mouth-watering Chocolate Lava Cake! Warm, gooey center served with vanilla ice cream.</p>
+      </div>
+    </div>
+    <script>
+      function dessert(){
+        alert("You've clicked the 'Chocolate Lava Cake Image' You will be redirected to our Dessert page.");
+      }
+    </script>
+  </section>
+  
+
+  <!-- Promotions Section -->
+  <section id="promotions">
+    <h2>Special Offers</h2>
+    <div class="promotions-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Dish</th>
+            <th>Original Price</th>
+            <th>Discounted Price</th>
+            <th>In Stock</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Chicken Fried Rice</td>
+            <td>$8.99</td>
+            <td><strong>$4.99</strong></td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Chicken Steamed Momos (8 pcs)</td>
+            <td>$5.99</td>
+            <td><strong>$2.99</strong></td>
+            <td>Limited</td>
+          </tr>
+          <tr>
+            <td>Shakes</td>
+            <td>$1.99</td>
+            <td><strong>$0.99</strong></td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Noodles</td>
+            <td>$3.99</td>
+            <td><strong>$2.99</strong></td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us on social media</p>
+    <div class="social-links">
+      <a href="./socials/social media.html" target="_blank">
+        <img src="./Images/FB.png" alt="Facebook" onclick="FB()" />
+      </a>
+      <a href="./socials/social media.html" target="_blank">
+        <img src="./Images/IG.jpg" alt="Instagram" onclick="IG()" />
+      </a>
+      <a href="./socials/social media.html" target="_blank">
+        <img src="./Images/X.png" alt="Twitter" onclick="X()" />
+      </a>
+    </div>
+    <p>&copy; 2025 The Nest. All rights reserved.</p>
+    <script>
+      function FB() {
+        alert("You've clicked the 'Facebook Image' You will be redirected to our Facebook page.");
+      }
+      function IG() {
+        alert("You've clicked the 'Instagram Image' You will be redirected to our Instagram page.");
+      }
+      function X() {
+        alert("You've clicked the 'X Image' You will be redirected to our X page.");
+      } 
+    </script>
+  </footer>
+
+</body>
+</html>

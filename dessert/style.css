@@ -1,0 +1,113 @@
+body {
+    background-image: url('./dessert\ logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FFA955;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+  }
+  .header-content img:hover{
+    transform: scale(1.1);
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .logo {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .featured-dessert {
+    padding: 30px 20px;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-dessert h2 {
+    text-align: center;
+    color: #FFA955;
+    margin-bottom: 20px;
+  }
+  
+  
+  .dessert-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; /* for mobile responsiveness */
+  }
+  
+  .featured-dessert img {
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .featured-dessert p {
+    max-width: 400px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .dessert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+  }
+  
+  .dessert-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .dessert-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .social-links img {
+    width: 32px;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  
+  .social-links img:hover{
+    transform: scale(2);
+  }

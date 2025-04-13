@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Nest's Desserts</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+        <a href="../index.html" target="_blank">
+            <img src="../Images/logo.jpg" alt="The Nest Logo" class="logo" onclick="goHome()"/>
+        </a>
+        <h1>Welcome to our Signature Desserts</h1>
+    </div>
+    <script>
+      function goHome() {
+        alert("You've clicked the 'Logo Image' You will be redirected to our home page.");
+      }
+      </script>
+  </header>
+
+ <!-- Featured Dessert -->
+    <section class="featured-dessert">
+        <h2>Featured Dessert</h2>
+        <div class="dessert-content">
+          <img src="./chesse cake.jpg" alt="Featured Dessert" />
+          <div class="dessert-text">
+            <h3>Cheese Cake - $3.00</h3>
+            <p>
+              Experience the delight of our creamy, caramel-drizzled cheesecake — a crowd favorite!
+            </p>
+          </div>
+        </div>
+    </section>
+  
+
+    <section class="dessert-grid">
+        <div class="dessert-card">
+        <img src="./choco lava.jpg" alt="Chocolate Lava Cake" />
+        <h3>Chocolate Lava Cake - $2.50</h3>
+        <p>Warm, gooey, and rich chocolate center with a scoop of vanilla ice cream.</p>
+        </div>
+
+        <div class="dessert-card">
+        <img src="./Strawberry Shortcake.jpg" alt="Strawberry Shortcake" />
+        <h3>Strawberry Shortcake - $3.50</h3>
+        <p>Layers of soft sponge cake with fresh strawberries and whipped cream.</p>
+        </div>
+
+        <div class="dessert-card">
+        <img src="./Ice Cream Sundae.jpg" alt="Ice Cream Sundae" />
+        <h3>Ice Cream Sundae - $2.00</h3>
+        <p>A delightful mix of scoops, syrups, nuts, and sprinkles for a perfect treat.</p>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us on social media</p>
+    <div class="social-links">
+      <a href="../socials/social media.html" target="_blank">
+        <img src="../Images/FB.png" alt="Facebook" onclick="FB()"/>
+      </a>
+      <a href="../socials/social media.html" target="_blank">
+        <img src="../Images/IG.jpg" alt="Instagram" onclick="IG()"/>
+      </a>
+      <a href="../socials/social media.html" target="_blank">
+        <img src="../Images/X.png" alt="Twitter" onclick="X()" />
+      </a>
+    </div>
+    <p>&copy; 2025 The Nest. All rights reserved.</p>
+    <script>
+      function FB() {
+        alert("You've clicked the 'Facebook Image' You will be redirected to our Facebook page.");
+      }
+      function IG() {
+        alert("You've clicked the 'Instagram Image' You will be redirected to our Instagram page.");
+      }
+      function X() {
+        alert("You've clicked the 'X Image' You will be redirected to our X page.");
+      } 
+    </script>
+  </footer>
+
+</body>
+</html>
