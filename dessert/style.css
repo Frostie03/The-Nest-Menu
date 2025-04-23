@@ -1,3 +1,44 @@
+/* NAVIGATION-BAR */
+#navigation-bar {
+  display: flex ;
+  align-items: center; 
+  padding: 15px 50px;
+  padding-top: 50px; 
+  
+}
+#navigation-bar img:hover{
+  transform: scale(1.5);
+}
+.horizontal-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.horizontal-list li a{
+  font-size: 20px;
+  font-weight: bold;
+} 
+.horizontal-list li {
+  margin-right: 50px;
+  display: inline-block;
+}
+.horizontal-list a{
+  color: white;
+  text-decoration: none;
+}
+.open{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: white;
+}
+#navigation-bar a img{
+  margin-right: 50px;
+}
+a:hover{
+color: red;
+}
+
+/* BODY */
 body {
     background-image: url('./dessert\ logo.jpg');
     background-size: cover;
@@ -111,3 +152,85 @@ body {
   .social-links img:hover{
     transform: scale(2);
   }
+
+  /* ---------- Responsive Design ---------- */
+
+/* Tablets and below (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  #navigation-bar {
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+  }
+
+  .horizontal-list li {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .featured-dessert {
+    padding: 20px 10px;
+    margin: 20px 10px;
+  }
+
+  .dessert-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .featured-dessert img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .dessert-text {
+    padding: 10px 0;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 150px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .horizontal-list li a {
+    font-size: 16px;
+  }
+
+  .dessert-card {
+    padding: 10px;
+  }
+
+  .dessert-card h3 {
+    font-size: 1rem;
+  }
+
+  .dessert-card p {
+    font-size: 0.9rem;
+  }
+
+  .dessert-card img {
+    height: 160px;
+  }
+
+  footer {
+    padding: 15px 5px;
+  }
+
+  .social-links img {
+    width: 28px;
+    margin: 5px;
+  }
+}
